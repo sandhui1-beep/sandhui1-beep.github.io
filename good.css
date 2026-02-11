@@ -77,3 +77,10 @@ li {
   background-color: #5a3b75;
 }
 
+a,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+}
