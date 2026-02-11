@@ -59,19 +59,18 @@ current {
 
 }
 
-li:hover {
-  background-color: #5a3b75;
-  rotate: 20deg;
-}
-
 li {
   border-radius: 25px;
   background-color: rgb(62, 79, 96);
-justify-content: left;
   padding: 20px;
   width: 200px;
   height: 150px; 
-  transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+li:hover {
+  background-color: #5a3b75;
+  transform: rotate(20deg);
 }
 
 .current {
