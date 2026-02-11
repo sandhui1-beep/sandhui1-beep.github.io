@@ -1,0 +1,75 @@
+/* google fonts need to be put here starting with '@import' */
+
+
+
+/*
+css reset - this sets ALL elements to have zero padding and margin, 
+and to display in the more logical border-box style
+*/
+/* 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} */
+
+
+@media (min-width: 768px) {
+ul li
+{
+  display:inline;
+}
+
+}
+
+a:link {
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+}
+
+
+nav {
+display: flex;
+background-color: rgb(255, 255, 255);
+justify-content: left;
+transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+
+}
+
+
+li:hover {
+  background-color: #d2d2d2;
+  rotate: 180deg;
+   transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  size: 40px;
+}
+
+li + li {
+    margin : 2em;
+}
+
+body{
+    background: #ffffff;
+    color: white;
+}
+
+#start,#stop{
+    width: 100px;
+    padding: 6px;
+    border-radius: 5px;
+    border: white;
+}
+
+body {
+
+  background-image: url('https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUydGd2b3AxZzRoOXB5bTd6dTJrcmkweTE1b3JpdW1mYm82dDhzb21ociZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3osxYgD4kfm3mGM0Ra/200.gif');
+}

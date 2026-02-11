@@ -1,0 +1,77 @@
+/* google fonts need to be put here starting with '@import' */
+
+
+
+/*
+css reset - this sets ALL elements to have zero padding and margin, 
+and to display in the more logical border-box style
+*/
+/* 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} */
+
+h1 {
+  color:aliceblue
+}
+
+a:link {
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+}
+
+body {
+	background-color: #1e2b1e;
+}
+
+@media (min-width: 768px) {
+ul li
+{
+  display:inline;
+}
+
+}
+
+active 
+{
+  background-color:#ff9900;
+}
+
+nav {
+display: flex;
+background-color: rgb(62, 79, 96);
+justify-content: left;
+transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+current {
+  color: rgb(0, 0, 0);
+
+}
+
+li:hover {
+  background-color: #5a3b75;
+  rotate: 20deg;
+}
+
+li {
+  border-radius: 25px;
+  background-color: #2b4a4d;
+  padding: 20px;
+  width: 200px;
+  height: 150px; 
+
+}
+
+.current {
+  background-color: #5a3b75;
+}
+
