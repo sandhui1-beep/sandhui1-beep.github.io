@@ -73,3 +73,10 @@ body {
 
   background-image: url('https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUydGd2b3AxZzRoOXB5bTd6dTJrcmkweTE1b3JpdW1mYm82dDhzb21ociZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3osxYgD4kfm3mGM0Ra/200.gif');
 }
+
+li {
+  border-radius: 25px;
+  background-color: #2b4a4d;
+  background-color: rgb(62, 79, 96);
+justify-content: left;
+}
